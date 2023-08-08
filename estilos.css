@@ -1,0 +1,82 @@
+/* General */
+body{
+    background-color: #000000;
+}
+
+/*Barra de navegacion*/
+.navbar{
+    padding: 1.5rem;
+    background-color: #010101;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+@media screen and (max-width: 767px) {
+    .navbar-brand { 
+        display: none;
+    }
+}
+
+/* Conóceme */
+/*Seccion Hero*/
+.hero{
+    background-color: #010101;
+    min-height: 450px;
+    text-align: center;
+}
+.hero-principal{
+    padding: 3rem;
+}
+.hero-principal h1{
+    font-size: 3rem;
+    color: #757474;
+    font-family: 'Noto sans', sans-serif
+}
+    .hero-principal h2{
+    font-size: 1.5rem;
+    color: #757474;
+    font-family: 'Noto sans', sans-serif;
+}
+
+/*fotografías*/
+#fotografias h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3rem;
+    margin-left: 2rem;
+    color: #757474;
+    margin-top: 100px;
+}
+.fotografias-container{
+    padding-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+.fotografia img{
+    padding: 0.2rem;
+    margin-top: 0.2rem;
+}
+
+.fotografia{
+    position: relative;
+}
+.fotografia:hover img{
+    opacity: 0.7;
+}
+.boton{
+    margin-bottom: 40px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
