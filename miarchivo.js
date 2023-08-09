@@ -41,7 +41,7 @@
 // Crear una lista de los item comprados
 let carritoInfo = "Carrito de Compras:\n";
 
-for (var i = 0; i < carrito.length; i++) {
+for (let i = 0; i < carrito.length; i++) {
     let item = carrito[i];
     carritoInfo += `${item.cantidad} x Fotos ${item.producto.nombre} - Precio unitario: $${item.producto.precio}\n`;
 }
